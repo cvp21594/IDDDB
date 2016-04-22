@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SUBREDDITS" directorySegmentName="seg_0" id="7A244EC3-337D-D8AA-98D3-2B43F685B4FD">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:32:11 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="3C819590-17FF-D0CF-76BA-FEEB5445F75B">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:33:05 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBREDDIT_ID" id="CB441FFC-7F63-0AD7-549E-A9467B7662ED">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:33:05 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSCRIBER_COUNT" id="D9DDAD5F-DC73-7030-6084-6EB8A612A477">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:33:05 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SUBMISSIONS_PK" id="C1D0DDBF-2F61-0A00-B75A-ACD23B468185">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:33:05 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

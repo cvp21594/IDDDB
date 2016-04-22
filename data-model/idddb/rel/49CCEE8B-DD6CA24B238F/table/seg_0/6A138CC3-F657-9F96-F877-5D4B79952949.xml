@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A138CC3-F657-9F96-F877-5D4B79952949" name="COMMENTS">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>3453FCBB-69EB-1991-A24B-7473ACDFED3C</importedID>
+<ordsAlias>redditcomment</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COMMENT_ID" id="E932D751-7203-5D19-DF0D-2FE5B201709B">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>0EDD746E-06F0-A1F3-13AA-F480EDC36586</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBMISSION_ID" id="0F016487-96DA-D0C2-0A2C-3F0C24E53B7B">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>1E899FDF-A759-F244-2061-32A6F9A6DA08</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2935A65B-1DD2-08CE-2971-CFEA948ACD0D" referredColumn="629EC7DF-72DB-9AA1-A8E2-015D5BB55167"/>
+</associations>
+</Column>
+<Column name="CONTENT" id="5BCEB9D2-B0D8-626F-4DED-5C9C1C125428">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>4276A5BA-B95F-62D4-38FE-3194A3B826AA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOTES" id="F44E3A18-D78D-FD5A-10E3-29C109C3EBB8">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>A9838FE5-4861-53CC-D007-C61790855C57</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANALYZED" id="A3CA88ED-F8B6-7E8F-7387-F8DBFAFF4EFF">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>337C1441-7DC0-379B-2AED-0C16CAF96EA6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F657E0E-B156-91C9-B51D-3D842C605FCE" name="REDDITCOMMENT_PK">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>3AF10F26-3C5A-5DF8-3873-6B7D5399876D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E932D751-7203-5D19-DF0D-2FE5B201709B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A640D3E3-30C0-9AE7-4E5B-DBC3FE9FAB67" name="REDDITCOMMENT_FK0">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F016487-96DA-D0C2-0A2C-3F0C24E53B7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

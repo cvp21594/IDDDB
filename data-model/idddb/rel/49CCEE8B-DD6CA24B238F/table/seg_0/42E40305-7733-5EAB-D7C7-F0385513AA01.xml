@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42E40305-7733-5EAB-D7C7-F0385513AA01" name="OCCURENCES">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>3C90E085-535D-6BBF-A7FD-EA921B44F014</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OCCURENCE" id="A1DB4E3C-ADDA-989E-08DF-1B6DB2DE8BD0">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>73216C7D-E03D-5CD5-DB4D-FB6B70CBC67E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>20B61966-E1A2-E776-1C47-F58F124A38DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HEADID" id="E8B6FD8D-6AED-3E78-0717-F5CAA4CD1DAB">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>F6DCE46F-8D40-C3E5-DF1C-3BDBA9EAFED1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>20B61966-E1A2-E776-1C47-F58F124A38DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B72169DC-E8E7-8A1F-80F2-CF7C6B0F1FDF" referredColumn="9A3C475B-946E-9E4F-8B36-46A9BC3D3C8B"/>
+</associations>
+</Column>
+<Column name="TAILID" id="FB7EDAB7-57D9-D21A-89FF-C456FBED4531">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>2781B68A-83DA-6E81-BCDA-F900EC808770</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>20B61966-E1A2-E776-1C47-F58F124A38DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="017231A8-2F15-316F-9299-8925C89770AA" referredColumn="E0EFA4F6-C288-5733-E658-6D15A1EE0A08"/>
+</associations>
+</Column>
+<Column name="FREQUENCY" id="C473BE2C-0D99-CD69-2970-42C2D825913F">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>89989FB9-D1AE-915E-D9E5-BDF70E2B4EDE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>20B61966-E1A2-E776-1C47-F58F124A38DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBREDDITID" id="C4619D2D-BFF0-4DB3-5E68-EC7A13C6A8E2">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>682A1F12-F34C-8D23-E93A-02EF829CD988</importedID>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEBDA65C-7B6F-4885-D36E-B3A1D197A2BC" referredColumn="629EC7DF-72DB-9AA1-A8E2-015D5BB55167"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD59CE17-FD2C-61AB-6FEE-275CBF09B559" name="OCCURENCES_PK">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>C77F5F53-7CE2-D77D-8E51-E949820E062D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1DB4E3C-ADDA-989E-08DF-1B6DB2DE8BD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A3945AE-F6D1-632D-335E-52BC79B075A3" name="OCCURENCES_FK0">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8B6FD8D-6AED-3E78-0717-F5CAA4CD1DAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B0B8277-CB85-AA2E-FF66-95CE7DE26C24" name="OCCURENCES_FK1">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB7EDAB7-57D9-D21A-89FF-C456FBED4531"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1829323-3910-C579-7139-8059BB43B834" name="OCCURENCES_FK2">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4619D2D-BFF0-4DB3-5E68-EC7A13C6A8E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8DC3463-474A-EAA7-B8FF-73726BB9245E" name="WORDHEAD">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>6597D55E-371E-84CC-B684-DF42DDB8105B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HEADID" id="9A3C475B-946E-9E4F-8B36-46A9BC3D3C8B">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>73C19360-5D2F-A266-9590-FF37D7BFD819</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>20B61966-E1A2-E776-1C47-F58F124A38DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WORD1" id="CD1ADB51-C99B-F7BE-81E0-C4EDEA5D6633">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>40B11A7B-2A4A-9804-E294-49B5F80CBDB7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>622E4395-8918-3785-6DDC-D779D535816D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WORD2" id="C5C8C65D-10CD-1E13-C91D-25EB908D425D">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>14D55A93-67D1-71F4-ADCE-F3505F5DFA27</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>622E4395-8918-3785-6DDC-D779D535816D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A915F395-7D8D-724B-DBCE-74BE4C9DAF61" name="WORDHEAD_PK">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>94A47A04-34CB-2F43-8843-12076A884974</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A3C475B-946E-9E4F-8B36-46A9BC3D3C8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

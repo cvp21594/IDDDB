@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5845298C-1C9F-94F4-2531-C9AE2D71C09B" name="SUBMISSIONS">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>778DE1D0-734E-9211-53C4-7BEF035A76A5</importedID>
+<ordsAlias>subreddit</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUBMISSION_ID" id="629EC7DF-72DB-9AA1-A8E2-015D5BB55167">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>044C1316-4D75-A3DF-F0A2-1EBD6EC7E2E5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBREDDIT_ID" id="D46269F7-5745-D2D3-E5C0-099D29BF2091">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:36:21 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0799E91D-81DE-B0A8-2B1D-0A5848B0EFF4" referredColumn="CB441FFC-7F63-0AD7-549E-A9467B7662ED"/>
+</associations>
+</Column>
+<Column name="VOTES" id="B710263A-0936-EFF8-0919-FCF465633052">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>F9A88FDD-7E7E-B2C3-63A0-DDB5879D236C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="EF61A05E-BAF7-A23E-4B8F-F30EA141D9EE">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:29:27 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SELF_POST" id="6FB8E6A2-C4F6-D004-D7DA-F77391C469A4">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:34:58 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENT" id="ED326323-C945-B93A-CA01-F2749F1DD8DD">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:34:58 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51F61C86-BEB8-49F2-0432-23BF19851D2F" name="SUBREDDIT_PK">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:27:10 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<importedID>FD9672FD-5F19-6FA5-6EA5-FCD637EA31EA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="629EC7DF-72DB-9AA1-A8E2-015D5BB55167"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63CE3ECA-B8F2-99AB-F733-C89112961BC6" name="SUBMISSIONS_ID">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:36:21 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D46269F7-5745-D2D3-E5C0-099D29BF2091"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

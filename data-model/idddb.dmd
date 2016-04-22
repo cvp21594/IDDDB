@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="idddb" id="BC68E821-AC38-C53F-F1F5-7C336B35915E" version="3.5">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:25:47 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BC68E821-AC38-C53F-F1F5-7C336B35915E</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="248F051C-0C06-B904-0C14-956F04D7ED9D">
+<designStoragePath>/export</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="CVP45F" directorySegmentName="seg_0" id="BF093A4F-A119-B158-9336-A2206A894F37">
+<sourceDDLFile>export.sql</sourceDDLFile>
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 05:26:57 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<schemaObject>D104A842-7216-590F-92B9-2624D91F7C60</schemaObject>
+</UserOraclev10g>
