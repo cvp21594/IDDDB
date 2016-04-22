@@ -23,6 +23,22 @@
 <ownDataTypeParameters>16,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="PARENT_COMMENT_ID" id="25AEA280-A68E-A866-CD7E-DC5372447F03">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 07:46:39 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE637F5D-899D-59DD-20D9-422ACFC7486C" referredColumn="E932D751-7203-5D19-DF0D-2FE5B201709B"/>
+</associations>
+</Column>
 <Column name="SUBMISSION_ID" id="0F016487-96DA-D0C2-0A2C-3F0C24E53B7B">
 <sourceDDLFile>export.sql</sourceDDLFile>
 <createdBy>caleb</createdBy>
@@ -100,6 +116,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0F016487-96DA-D0C2-0A2C-3F0C24E53B7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F44D202-C113-FF0A-D5CC-F119211952BD" name="PARENT_COMMENT_ID">
+<createdBy>caleb</createdBy>
+<createdTime>2016-04-22 07:46:39 UTC</createdTime>
+<ownerDesignName>idddb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25AEA280-A68E-A866-CD7E-DC5372447F03"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
